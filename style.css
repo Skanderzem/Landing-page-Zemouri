@@ -1,0 +1,554 @@
+/* Write some CSS below */
+
+body{
+  background-color: white;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  text-align: left;
+  margin-left: 10px;
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2{
+  text-align: left;
+  margin-left: 50px;
+  font-size: 60px;
+  margin-top: -30px;
+}
+
+#nouvelle{
+  text-align: center;
+}
+
+h3{
+  font-size: 20px;
+
+}
+
+.prix{
+  font-size: 20px;
+  text-align: right;
+  margin: 10px;
+}
+
+.titre {
+  font-size: 20px;
+  margin-top: -30px;
+  margin-bottom: 60px;
+}
+
+.bannertext p {
+  text-align: center;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 16px;
+}
+
+.logo-mikianeli {
+  width: 50px;
+}
+
+.list-menu {
+  list-style: none; 
+}
+
+.list-menu li {
+  display: inline;
+}
+
+.btn-menu {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.btn-menu:hover {
+  background-color: rgb(213, 210, 210);
+  color: black;
+  transition: 0.3;
+  transform: translateX(10px);
+}
+
+.banner1{
+  background-color: rgb(214, 209, 209);
+  border-top-left-radius: 20px; 
+  border-top-right-radius:20px;
+  margin: 20px 20px;
+  margin-bottom: 0px;
+}
+
+.bannertxrobe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.bannertext {
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#btn-recherche {
+  font-size: 25px;
+  color: black;
+  margin: 10px;
+  text-align: right;
+}
+
+.robe {
+  width: 500px;
+  margin: 100px 96px;
+  box-shadow: 50px 60px 30px rgba(0, 0, 0, 1.0);
+  text-align: right;
+  border-radius: 20px;
+}
+
+.btn-black {
+    background-color:rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    margin-left: 500px;
+}
+
+.btn-black:hover {
+  background-color: white;
+  color: black;
+}
+
+.container{
+  width: 1400px;
+  margin: 0px auto;
+}
+
+.banner2 {
+  background-color: rgb(214, 209, 209);
+  margin: 0px 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.card-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 60px;
+}
+
+.card-grey{
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 8px;
+  border-radius: 20px;
+}
+
+.card-grey:hover{
+  transition: 0.3s;
+  transform: translateY(-20px);
+}
+
+.banner3 {
+  background-color: rgb(255, 255, 255);
+  margin: 0px 20px
+}
+
+.article{
+  border-radius: 20px;
+}
+
+.txtimg{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.imgsecret{
+  text-align: center;
+}
+
+.secret{
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: -50px -60px 30px rgba(0, 0, 0, 1.0);
+  margin-top: 80px;
+}
+
+.imgstar{
+  text-align: center;
+}
+
+.star{
+  width: 600px;
+  border-radius: 20px;
+  box-shadow: 50px 60px 30px rgba(0, 0, 0, 1.0);
+}
+
+.text1{
+  font-size: 30px;
+  text-align: center;
+  padding: 75px;
+}
+
+.text2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 0 68px; 
+}
+
+.textpetit{
+  font-size: 20px;
+  text-align: center;
+}
+
+.textpetit2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.banner4{
+  margin: 70px 20px;
+}
+
+.article1{
+  width: 200px;
+  border-radius: 50px;
+}
+
+.card-list1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card-grey1{
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card-grey1:hover{
+  transform: scale(1.1);
+}
+
+.banner5{
+  background-color: rgb(214, 209, 209);
+  margin: 0px 20px;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.apropos{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
+#histoire{
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: -100px;
+}
+
+.btn-savoir{
+  background-color:rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.btn-savoir:hover{
+  background-color: white;
+  color: black;
+}
+
+.text3{
+  text-align: right;
+}
+
+.textpetit3 {
+  font-size: 20px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.textpetit4{
+  font-size: 20px;
+  text-align: center;
+  padding: 60px 150px;
+}
+.photos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.models1{
+  width: 500px;
+  margin: 100px 0;
+}
+
+.model{
+  width: 500px;
+  margin: 10px 0;
+}
+
+.sac{
+  width: 500px;
+  margin: 10px;
+  position: relative;
+}
+
+.sac1{
+text-align: center;
+margin-top: -65px;
+}
+
+.txtsac{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+}
+
+.models{
+  width: 500px;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.modele-sac{
+  width: 500px;
+  margin: 10px 0;
+}
+
+.model-veste{
+  margin-left: -70px;
+  margin-top: -70px;
+}
+
+.banner7{
+  background-color: rgb(214, 209, 209);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.questionnaire{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 10px;
+}
+
+.question{
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 50%;
+  text-align: center;
+  height: 500px;
+  margin: -70px auto 0 0;
+}
+
+.fin{
+  margin-top: -545px;
+  padding-left: 165px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+.form-control {
+  width: 45%;
+  height: 35px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 260px;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+.contact{
+  font-size: 44px;
+}
+
+.banner8{
+  background-color: rgb(214, 209, 209);
+}
+
+.footer{
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-color: black;
+  opacity: 1;
+  border-style: solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.menu-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.list-footer{
+  list-style: none;
+  text-align: left ;
+  line-height: 3; 
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.list-footer i{
+  font-size: 30px;
+  color:black;
+  letter-spacing: 20px;
+}
+
+.list-footer i:hover{
+  color: rgba(0, 0, 0, 0.199);
+  transition: 0.3s;
+  transform: translateX(10px);
+}
+
+.image-footer{
+  width: 250px;
+  padding: 45px 15px;
+  margin-top: -30px;
+  margin-bottom: 29px;
+}
+
+.logotxt{
+  display: flex;
+}
+
+#txtfooter{
+  text-align: justify;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.banner9{
+  background-color: rgb(214, 209, 209);
+}
+
+.droit{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#inc{
+  color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+}
+
+.list1 li{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 18px;
+}
+
+.list1 li a{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.list1 li a:hover{
+  color: white;
+}
+
+.list-droit{
+  text-align: right;
+}
+
+.list1{
+  list-style: none;
+}
+
+.list2{
+  color: #000000;
+}
+
+.list2:hover{
+  color: white;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 900px;
+  }
+  .card-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 680px;
+  }
+  .card-list, .banner, .bannertxrobe, .card-list, .txtimg, .card-list1, .apropos, .txtsac, .questionnaire, .droit, .menu-footer, .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 480px;
+  }
+  .card-list, .banner, .bannertxrobe, .card-list, .txtimg, .card-list1, .apropos, .txtsac, .questionnaire, .droit, .menu-footer, .footer {
+    grid-template-columns: 1fr;
+  }
+}
